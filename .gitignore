@@ -32,3 +32,11 @@ scripts/vision_ocr
 *.lock
 *.lock~
 Nage Libre.rep/
+
+# Game data and analysis artifacts, never commit
+*.rep/
+*.gpr
+mesen_dumps/
+extracted_*.bin
+debug_bin.bin
+tmp.bin
